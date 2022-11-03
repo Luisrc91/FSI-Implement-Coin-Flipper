@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny Flip Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <H1>Roll Dice Game</H1>
+        <div>
+            <div> 
+                <img id="Dice" src="assets/images/dice/dice1.png" alt="Dice (side number one)">
+            </div>
+            <div class="controls">
+                <button id="roll"> Roll dice!</button>
+                <button id="clear"> Clear Scoreboard </button>
+            </div>
+            <div class="message-containerr">
+                <h2 id="messagee">Let's Get Rolling!!</h2>
+            </div>
+            <hr>
+            <div>
+                <h2>Scoreboard</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dice Roll</th>
+                            <th>Number of Rolls</th>
+                            <th>Percentage of Rolls</th>                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="Dice">0</td>
+                            <td id="Rolls">0%</td>
+                            <td id="PercentageOfRolls">0</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/scripdice.js"></script>
+</body>
+</html>
