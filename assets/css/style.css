@@ -1,4 +1,4 @@
-html, 
+html,
 body {
     margin: 0;
     padding: 0;
@@ -58,8 +58,8 @@ button {
 }
 
 /* Scoreboard Styles */
-table, 
-th, 
+table,
+th,
 td {
     border: 1px solid darkorange;
     margin: 0 auto;
@@ -69,3 +69,5 @@ td {
     padding: 5px;
     font-weight: bold;
 }
+
+
